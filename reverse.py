@@ -1,3 +1,4 @@
+
 def reverse(head):
     previous=None
     current=head
@@ -6,3 +7,4 @@ def reverse(head):
         current.next=previous
         previous=current
         current=next_node
+
